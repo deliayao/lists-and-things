@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'lists-and-things' target in the 'lists-and-things' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
