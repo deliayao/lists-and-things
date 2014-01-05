@@ -17,6 +17,7 @@
 		1800D3901878D0630059F374 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800D3701878D0620059F374 /* Cocoa.framework */; };
 		1800D3981878D0630059F374 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1800D3961878D0630059F374 /* InfoPlist.strings */; };
 		1800D39B1878D0630059F374 /* lists_and_thingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800D39A1878D0630059F374 /* lists_and_thingsTests.m */; };
+		1800D3A61878E1C30059F374 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800D3A51878E1C30059F374 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		1800D3971878D0630059F374 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1800D3991878D0630059F374 /* lists_and_thingsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lists_and_thingsTests.h; sourceTree = "<group>"; };
 		1800D39A1878D0630059F374 /* lists_and_thingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lists_and_thingsTests.m; sourceTree = "<group>"; };
+		1800D3A41878E1C30059F374 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1800D3A51878E1C30059F374 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				1800D3831878D0630059F374 /* AppDelegate.m */,
 				1800D3851878D0630059F374 /* MainMenu.xib */,
 				1800D3771878D0620059F374 /* Supporting Files */,
+				1800D3A41878E1C30059F374 /* Task.h */,
+				1800D3A51878E1C30059F374 /* Task.m */,
 			);
 			path = "lists-and-things";
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			files = (
 				1800D37D1878D0620059F374 /* main.m in Sources */,
 				1800D3841878D0630059F374 /* AppDelegate.m in Sources */,
+				1800D3A61878E1C30059F374 /* Task.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
